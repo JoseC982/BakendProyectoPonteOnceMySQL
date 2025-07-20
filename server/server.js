@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
-require("./config/mongoose.config");
 //app es una instancia de express
 //put, get, delete, son rutas que se pueden definir en express
 //app.use() es un middleware, se va a ejecutar antes de todas las rutas
