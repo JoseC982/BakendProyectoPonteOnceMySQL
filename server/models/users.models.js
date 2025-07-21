@@ -11,7 +11,7 @@ const User = sequelize.define('User', {
             notNull: { msg: "Id is required" }
         }
     },
-    nombre: {
+    name: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
