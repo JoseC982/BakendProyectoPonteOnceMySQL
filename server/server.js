@@ -10,6 +10,9 @@ app.use(express.urlencoded({extended:true}));
 const allUsersRoutes = require("./routes/users.routes");
 allUsersRoutes(app);
 
+const allIncidentsRoutes = require("./routes/incidents.routes");
+allIncidentsRoutes(app);
+
 app.listen(port, () => {
 console.log("Server escuchando en el puerto", port);
 })
