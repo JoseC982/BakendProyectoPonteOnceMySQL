@@ -13,6 +13,9 @@ allUsersRoutes(app);
 const allIncidentsRoutes = require("./routes/incidents.routes");
 allIncidentsRoutes(app);
 
+const allReportsRoutes = require("./routes/reports.routes");
+allReportsRoutes(app);
+
 app.listen(port, () => {
 console.log("Server escuchando en el puerto", port);
 })
